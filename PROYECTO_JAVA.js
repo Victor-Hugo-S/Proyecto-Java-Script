@@ -69,12 +69,6 @@ var Recargos_Por_Hijos;
 
 comision = precioBase * 0.30;
 
-// El siguiente es un comentario.
-// Por favor no elimine los caracteres // que se encuentran al inicio.
-
-// En la siguiente variable usted debe calcular los cargos correspondientes.
-// Puede crear la cantidad de variables necesarias para calcular cada uno
-// de los recargos que sean necesarios
 recargos = Recargos_Edad_Asegurado + recargos_edad_conyuge + Recargos_Por_Hijos;
 
 totalPagar = precioBase + comision + recargos;
